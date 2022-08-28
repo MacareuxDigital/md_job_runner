@@ -1,17 +1,17 @@
 # Concrete CMS add-on: Macareux Job Runner
 
-Automated jobs has been deprecated in Concrete CMS 9.0 
-and may be removed in the future versions.
+Automated jobs have been deprecated in Concrete CMS 9.0 and 
+will be removed in future versions.
 
-The best way is convert your automated job to "Task", that 
-is introduced in version 9. However, manual converting may 
-take long time to do it or the author of the add-ons 
-you're using now does not release a new version supports 
-Concrete 9 yet.
+The best way is to convert your automated job to "Task," 
+which is introduced in version 9. However, manual converting 
+may take a long time to do it, or the author of the add-ons 
+you're using now does not release a new version that 
+supports Concrete 9 yet.
 
-This is a mitigation package to upgrade to version 9 as 
-soon as possible. This package installs a Task to run 
-automated jobs as it is.
+This is a mitigation package to upgrade to version 9 as soon 
+as possible. 
+This package installs a Task to run automated jobs as it is.
 
 ## How to schedule automated jobs
 
@@ -127,7 +127,12 @@ That's it! Now you can run this queueable job with
 "Run automated job" task.
 
 You can fix imports with `md:convert-queueable-job` console 
-command.
+command also.
+
+## Converting Jobs to Tasks
+
+You should consider to convert your job to tasks if you can.
+[Our blog post](https://macareux.co.jp/blog/converting-jobs-tasks) may help you to know hot to do it.
 
 ## License
 
