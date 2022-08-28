@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <tasks>
+        <task handle="job" package="md_job_runner"/>
+    </tasks>
+</concrete5-cif>
