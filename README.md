@@ -132,7 +132,7 @@ command also.
 ## Converting Jobs to Tasks
 
 You should consider to convert your job to tasks if you can.
-[Our blog post](https://macareux.co.jp/blog/converting-jobs-tasks) may help you to know hot to do it.
+[Our blog post](https://macareux.co.jp/blog/converting-jobs-tasks) may help you to know how to do it.
 
 ## License
 
