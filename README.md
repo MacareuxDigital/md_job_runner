@@ -3,11 +3,11 @@
 Automated jobs have been deprecated in Concrete CMS 9.0 and 
 will be removed in future versions.
 
-The best way is to convert your automated job to "Task," 
-which is introduced in version 9. However, manual converting 
-may take a long time to do it, or the author of the add-ons 
-you're using now does not release a new version that 
-supports Concrete 9 yet.
+The best way is converting your automated job to "Task," 
+which is the new feature introduced in version 9. However, 
+manual converting may take a long time to do it, or the 
+author of the add-ons you're using now does not release a 
+new version that supports Concrete 9 yet.
 
 This is a mitigation package to upgrade to version 9 as soon 
 as possible. 
