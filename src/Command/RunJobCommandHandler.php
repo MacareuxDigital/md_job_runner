@@ -2,14 +2,17 @@
 
 namespace Macareux\JobRunner\Command;
 
-use Concrete\Core\Job\Job;
+use Concrete\Core\Support\Facade\Application;
+use Macareux\JobRunner\Job\Service;
 
 class RunJobCommandHandler
 {
     public function __invoke(RunJobCommand $command)
     {
-        /** @var Job $job */
-        $job = Job::getJobObjByHandle($command->getJobHandle());
+        $app = Application::getFacadeApplication();
+        /** @var Service $service */
+        $service = $app->make(Service::class);
+        $job = $service->getJobByHandle($command->getJobHandle());
         if ($job) {
             $job->run();
         }
